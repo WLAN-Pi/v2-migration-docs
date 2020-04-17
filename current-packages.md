@@ -7,17 +7,45 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
 
 ## Linux Packages Added to Base Image
 
-- tcpdump: 
-- tshark
-- iperf2
-- iperf3
-- eperf
-- zap
-- aircrack-ng
-- kismet
-- Bettercap
-- Scapy
-- Python3
+- **tcpdump**: 
+    - Home page: 
+    - Installation method:
+- **tshark**:
+    - Home page: 
+    - Installation method:
+- **iperf2**:
+    - Home page: 
+    - Installation method:
+- **iperf3**:
+    - Home page: 
+    - Installation method:
+- **eperf**:
+    - Home page: 
+    - Installation method:
+- **Ruckus Speedflex(Zap)**:
+    - Home page: 
+    - Installation method:
+- **aircrack-ng**:
+    - Home page: 
+    - Installation method:
+- **kismet**:
+    - Home page: 
+    - Installation method:
+- **Bettercap**:
+    - Home page: 
+    - Installation method:
+- **Scapy**:
+    - Home page: 
+    - Installation method:
+- **Python3**:
+    - Home page: 
+    - Installation method:
+- **H.O.R.S.T**: lightweight 802.11 wireless LAN analyzer with a text interface
+    - Home page: 
+    - Installation method: 
+- **Termshark**: terminal UI that provides Wireshark-type experience
+    - Home page: https://termshark.io/
+    - Installation method: apt-get install ???
 
 ## Project-hosted packages:
 
@@ -29,7 +57,7 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
     - Repo: https://github.com/WLAN-Pi/fpms
     - Dependencies:
         - Python modules: PIL, bakebit_128_64_oled, types, re, textwrap, subprocess, signal, socket
-- **Wi-Fi Console**: https://github.com/WLAN-Pi/wconsole
+- **Wi-Fi Console**: Turns your WLAN Pi in to a wireless serial console
     - Repo: https://github.com/WLAN-Pi/wconsole
     - Dependencies: isc-dhcp-server, ser2net, hostapd
 - **wlanpihotspot**:
