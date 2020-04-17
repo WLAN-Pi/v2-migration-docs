@@ -29,7 +29,7 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
     - Repo: https://github.com/WLAN-Pi/fpms
     - Dependencies:
         - Python modules: PIL, bakebit_128_64_oled, types, re, textwrap, subprocess, signal, socket
-- **Wi-File Console**: https://github.com/WLAN-Pi/wconsole
+- **Wi-Fi Console**: https://github.com/WLAN-Pi/wconsole
     - Repo: https://github.com/WLAN-Pi/wconsole
     - Dependencies: isc-dhcp-server, ser2net, hostapd
 - **wlanpihotspot**:
