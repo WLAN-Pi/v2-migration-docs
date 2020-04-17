@@ -62,9 +62,13 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
     - Dependencies: isc-dhcp-server, ser2net, hostapd
 - **wlanpihotspot**:
 - **pkg-admin-tools**:
-- **misc-build-files**:
+- **misc-build-files**: A collection of miscellaneous Linux config files that have been customised for the WLAN Pi. They were placed in this repo to ensure they did not get missed each time a new image build was completed. The files are installed using the pkg_admin tool.
+    - Repo: https://github.com/WLAN-Pi/misc-build-files
+    - Dependencies: None
 - **web-front-end**:
-- **speedtest**:
+- **speedtest**: HTML5 Speedtest forked from https://github.com/librespeed/speedtest. Files are served by the WLAN Pi Apache web server - there are no server-side scripts or processes.
+    - Repo: https://github.com/WLAN-Pi/speedtest
+    - Dependencies: Apache web server
 
 
 ## 3rd party modules installed on WLAN Pi
