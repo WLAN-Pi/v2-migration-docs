@@ -12,4 +12,5 @@ Docs:
 
 - [Current package summary](current-packages.md)
 - [Proposed new packages](proposed-new-packages.md)
+- [Migration Summary Sheet (Google doc)](https://docs.google.com/spreadsheets/d/1ltta3WHbiVDCdsPBEXGHW24cyKPPLhiuhOZ9bs2jNHg/edit?usp=sharing)
 
