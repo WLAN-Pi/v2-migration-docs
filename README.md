@@ -10,6 +10,6 @@ The move to v2.x will also be used as an opportunity to rationalize the packages
 
 Docs:
 
-- [Current package summary](blob/master/current-packages.md)
-- [Proposed new packages](blob/master/proposed-new-packages.md)
+- [Current package summary](master/current-packages.md)
+- [Proposed new packages](master/proposed-new-packages.md)
 
