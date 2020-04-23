@@ -33,6 +33,9 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
 - **iperf3**:
     - Installation method: apt-get
     - Comments: Currently starts from cron startup - in future enable/disable from Cockpit
+- **ser2net**
+    - Installation method: apt-get
+    - Comments: Provide network access to device serial ports
 
 ## Project-hosted packages:
 
@@ -69,6 +72,9 @@ As part of the migration to the WLAN Pi V2 code, I'm conducting an audit of exis
     - Repo: https://github.com/WLAN-Pi/speedtest
     - Dependencies: Apache web server
     - Comments: Need to incorporate in to new Web GUI. Long term: embellish to store data, look at history etc.
+- **Bakebit**:
+    - Repo: https://github.com/WLAN-Pi/BakeBit
+    - Comments: Replaced by the fpms project which provides streamlined repo and Python 3 support
 
 
 ## 3rd party modules installed on WLAN Pi
